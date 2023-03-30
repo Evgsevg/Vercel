@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "name": "Barselona_Spartak",
+      "price": "345",
+      "owner": "Eugene",
+      "timesTamp": 1679882966161,
+      "date": "2023-03-28T06:10",
+      "status": 1,
+      "last_bidder": null
+    },
+    {
+      "name": "Barselona_Lokomotiv",
+      "price": "23",
+      "owner": "Eugene",
+      "timesTamp": 1679882999407,
+      "date": "2023-03-29T06:06",
+      "status": 1
+    },
+    {
+      "name": "Barselona_DC",
+      "price": "234",
+      "owner": "Eugene",
+      "timesTamp": 1679883028235,
+      "date": "2023-03-28T20:11",
+      "status": 1
+    },
+    {
+      "name": "test1",
+      "price": null,
+      "owner": "Eugene",
+      "timesTamp": 1680055235970,
+      "date": "2023-03-27T06:02",
+      "status": 1
+    },
+    {
+      "name": "Test",
+      "price": "353",
+      "owner": null,
+      "timesTamp": 1680056554932,
+      "date": "2023-03-30T12:02",
+      "status": 1,
+      "last_bidder": null
+    },
+    {
+      "name": "Test3",
+      "price": "1233",
+      "owner": "Виктор",
+      "timesTamp": 1680059186096,
+      "date": "2023-03-30T08:07",
+      "status": 1
+    },
+    {
+      "name": "Barselona_DC",
+      "price": "3345",
+      "owner": "Eugene",
+      "timesTamp": 1680137703008,
+      "date": "2023-03-31T03:04",
+      "status": 1
+    },
+    {
+      "name": "Test",
+      "price": "23",
+      "owner": "Виктор",
+      "timesTamp": 1680138034562,
+      "date": "2023-03-30T02:03",
+      "status": 1
+    },
+    {
+      "name": "sfa",
+      "price": "234",
+      "owner": "Eugene",
+      "timesTamp": 1680138576026,
+      "date": "2023-03-30T06:11",
+      "status": 1
+    },
+    {
+      "name": "test",
+      "price": "123",
+      "owner": "Eugene",
+      "timesTamp": 1680138612183,
+      "date": "2023-03-21T05:12",
+      "status": 1
+    },
+    {
+      "name": "aas",
+      "price": "23",
+      "owner": "Eugene",
+      "timesTamp": 1680138640293,
+      "date": "2024-04-23T05:11",
+      "status": 1
+    }
+  ]
+}
