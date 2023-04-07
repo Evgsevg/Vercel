@@ -1,0 +1,160 @@
+*{
+	margin:0;
+	padding:0;
+}
+fieldset {   
+  -moz-border-radius:5px;  
+  border-radius: 5px;  
+  -webkit-border-radius: 5px; /*edit :D*/
+    padding-top:10px;
+    border:1px solid #666;
+    box-shadow:0 0 10px #666;
+  }
+  legend {
+    float:left;
+    margin-top:-20px;
+  }
+  legend + * {
+    clear:both;
+  }
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  /*button radius*/
+  border-radius: 8px;
+  /*button shadow*/
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  /*
+  background-image:url(./assets/img/bet5_1.png);
+  */
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/*link React styles*/
+.link-styles {
+  padding: 0 30px;
+}
+/*table animation*/
+table {
+  border: 1px solid black;
+  overflow: hidden; border-radius: 6px;
+}
+th{
+  background: #a9b4e9;
+  
+    
+}
+table tr td {
+  border: 1px solid black;
+}
+
+table tr.add-row-animation {
+  transition-duration: 1s;
+  animation: addRow 2s 1 linear;
+  transform-origin: top;
+}
+
+@keyframes addRow {
+  0% {
+    transform: scale(1, 0);
+    line-height: 0px;
+    background-color: #fff;
+    visibility: collapse;
+  }
+  50% {
+    background-color: orange;
+    transform: scale(1, 1);
+    line-height: 18px; /* font-size(16px) + border-top(1px) + border-bottom(1px) */
+    visibility: visible;
+  }
+  100% {
+    background-color: #fff;
+  }
+}
+  tr:hover{
+  background: #eaebf1;
+
+  }
+  /**datetime styles*/
+  .datepicker
+{
+    text-align: center;
+    }
+input{
+        height: 40px;
+        width: 250px;
+        font-size: 18px;
+        color: #417949;
+    }
+    p{
+        color:rgb(57, 57, 233)
+    }
+    /*hide input*/
+    
+    .display_block{
+      /*display: block;*/
+      width: 50px;
+      height: 50px;
+      background-color: #417949;
+      margin-left: 20px;
+      transition: 0.5s ease-in-out;
+      opacity: 1;
+      visibility: visible;
+    }
+    .active_block{
+      opacity: 0;
+      /*display:none;*/
+      visibility: hidden;
+    }
+    
+    
