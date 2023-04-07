@@ -1,9 +1,0 @@
-@import url('https://fonts.google.com/specimen/Inconsolata?query=inco');
-body{
-        margin: 0;
-        padding:0;
-        font-family: 'Inconsolata',monospace;
-    }
-    p{
-        color:rgb(57, 57, 233)
-    }
